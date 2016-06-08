@@ -16,14 +16,14 @@
 <repositories>
                       <repository>
                               <id>central</id>
-                      <url>http://localhost:8081/artifactory/libs-release</url>
+                      <url>http://192.168.99.100:32773/artifactory/libs-release</url>
                       <snapshots>
                               <enabled>false</enabled>
                       </snapshots>
               </repository>
               <repository>
                       <id>snapshots</id>
-                      <url>http://localhost:8081/artifactory/libs-snapshot</url>
+                      <url>http://192.168.99.100:32773/artifactory/libs-snapshot</url>
                       <releases>
                               <enabled>false</enabled>
                       </releases>
@@ -32,14 +32,14 @@
       <pluginRepositories>
               <pluginRepository>
                       <id>central</id>
-                      <url>http://localhost:8081/artifactory/plugins-release</url>
+                      <url>http://192.168.99.100:32773/artifactory/plugins-release</url>
                       <snapshots>
                               <enabled>false</enabled>
                       </snapshots>
               </pluginRepository>
               <pluginRepository>
                       <id>snapshots</id>
-                      <url>http://localhost:8081/artifactory/plugins-snapshot</url>
+                      <url>http://192.168.99.100:32773/artifactory/plugins-snapshot</url>
                       <releases>
                               <enabled>false</enabled>
                       </releases>
@@ -90,17 +90,17 @@
   </reporting>
 <distributionManagement>
     <repository>
-        <id>central</id>
-        <name>IBM223-PC09E8KS-releases</name>
-        <url>http://localhost:8081/artifactory/libs-release-local</url>
+        <id>9114a2a195f4</id>
+        <name>9114a2a195f4-releases</name>
+        <url>http://192.168.99.100:32773/artifactory/libs-release-local</url>
     </repository>
 
 
 
     <snapshotRepository>
-        <id>central</id>
-        <name>IBM223-PC09E8KS-releases</name>
-        <url>http://localhost:8081/artifactory/ext-snapshot-local</url>
+        <id>9114a2a195f4</id>
+        <name>9114a2a195f4-snapshots</name>
+        <url>http://192.168.99.100:32773/artifactory/ext-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 
